@@ -31,6 +31,10 @@ main {
   display: flex;
 }
 
+.socialmedia-icon {
+  width: 1.5rem;
+}
+
 .socialmedia-icon:first-child {
   margin-right: 2rem;
 }
