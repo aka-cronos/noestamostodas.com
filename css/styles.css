@@ -30,6 +30,7 @@ main {
   display: -ms-flexbox;
   display: flex;
 }
+
 .socialmedia-icon:first-child {
   margin-right: 2rem;
 }
