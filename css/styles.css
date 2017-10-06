@@ -4,6 +4,7 @@
 }
 
 body {
+  font-size: 16px;
   background-color: #57478E;
 }
 
@@ -11,14 +12,22 @@ main {
   position: relative;
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .socialmedia {
   position: absolute;
   bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .socialmedia-icon:first-child {
